@@ -1,0 +1,1764 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFamAdress> a dcat:Dataset ;
+	dct:title " Familenfreundlichste Stadtteile der Stadt Leipzig" ;
+	dcat:dataset "Adressen in der Stadt Leipzig" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Adressen, Stadt, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://leipzig-data.de/Data/model/info/?m=http%3A%2F%2Fleipzig-data.de%2FData%2FAdressen%2F" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "FamAdress" ;
+	dct:publisher "Alexander Mueller" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://leipzig-data.de/Data/Adressen/" ;
+	dct:format "RDF, OWL" ;
+	dcat:downloadURL "http://leipzig-data.de:8890/sparql" ;
+	dct:rights "CC0 1.0 Universal" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAlexander+Mueller> a foaf:Agent ;
+	dct:publisher "Alexander Mueller" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> a dcat:Catalog ;
+	dct:title "Projekte aus dem SS15" ;
+	dct:description "Hier findet Ihr alle Projekte aus dem SS15" ;
+	dct:issued "28.07.2016" ;
+	dct:modified "28.07.2016" ;
+	dct:language "DE" ;
+	dct:publisher "Prof. Dr. Thomas Riechert" ;
+	foaf:homepage "http://thomas-riechert.de/about/" ;
+	dcat:themeTaxonomy "skos:ConceptScheme" ;
+	dcat:dataset "FamAdress" .
+
+<skos:Concept> a skos:Concept ;
+	skos:inScheme "skos:ConceptScheme" .
+
+<skos:ConceptScheme> a skos:ConceptScheme .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFamSchule> a dcat:Dataset ;
+	dct:title " Familenfreundlichste Stadtteile der Stadt Leipzig" ;
+	dcat:dataset "  Schulen der Stadt Leipzig," ;
+	dct:description """ohne beruflische Schulen und Förderschulen. 2014-07-20: Abgleich mit den Stadtseiten.""" ;
+	dcat:keyword "Schulen, Stadt, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://leipzig-data.de/Data/view/?r=http%3A%2F%2Fleipzig-data.de%2FData%2FSchulen%2F" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "FamSchule" ;
+	dct:publisher "Alexander Mueller" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://leipzig-data.de/Data/Schulen" ;
+	dct:format "RDF, OWL" ;
+	dcat:downloadURL "http://leipzig-data.de:8890/sparql" ;
+	dct:rights "CC0 1.0 Universal" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "FamSchule" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFamStadtb> a dcat:Dataset ;
+	dct:title " Familenfreundlichste Stadtteile der Stadt Leipzig" ;
+	dcat:dataset "  Stadtbezirke und Ortsteile" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Stadtbezirke, Ortsteile, Stadt, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://leipzig-data.de/Data/model/info/?m=http%3A%2F%2Fleipzig-data.de%2FData%2FAdministrativeGliederung%2F" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "FamStadtb" ;
+	dct:publisher "Alexander Mueller" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://leipzig-data.de/Data/list" ;
+	dct:format "RDF, OWL" ;
+	dcat:downloadURL "http://leipzig-data.de:8890/sparql" ;
+	dct:rights "CC0 1.0 Universal" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "FamStadtb" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFamAdressDB> a dcat:Dataset ;
+	dct:title " Familenfreundlichste Stadtteile der Stadt Leipzig" ;
+	dcat:dataset "Adressdatenbank auf der Website der Stadt Leipzig " ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Adressen, Stadt, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.leipzig.de/suchergebnisse-adressdatenbank/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "FamAdressDB" ;
+	dct:publisher "Alexander Mueller" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.leipzig.de/suchergebnisse-adressdatenbank/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP (interne API)" ;
+	dct:rights """urheber- bzw. leistungsrechtlich geschutzt""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "FamAdressDB" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegListe+> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Liste von Seen in Deutschland/" ;
+	dct:description """Der Artikel „Liste von Seen in Deutschland/“ existiert in der deutschsprachigen Wikipedia nicht. Du kannst den Artikel erstellen (Anleitung). Wenn dir die folgenden Suchergebnisse nicht weiterhelfen, wende dich bitte an die Suchhilfe oder suche nach „Liste von Seen in Deutschland/“ in anderssprachigen Wikipedias.""" ;
+	dcat:keyword "Seen, Deutschland " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """https://de.wikipedia.org/wiki/Spezial:Suche/Liste_von_Seen_in_Deutschland/?searchToken=2lajizotmg1mf1krviekxxkr7""" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "RegListe " ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://de.wikipedia.org/wiki/Liste_von_Seen_in_Deutschland/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights """Creative Commons Lizenz, CC-BY-SA 3.0""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnja+Rommel> a foaf:Agent ;
+	dct:publisher "Anja Rommel" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Anja Rommel" ;
+	dcat:dataset "RegListe " .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegBaySe> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Der Bayerische Seglerverband" ;
+	dct:description """Der Bayerische Seglerverband e.V. (BSV) wurde bereits im Jahr 1946 gegründet und gehört zum BLSV (Bayerischer Landes-Sportverband e.V., München). Im BSV sind 210 Vereine an 60 Revieren vom Bodensee bis Nordfranken und Oberbayern vertreten. 31.135 Mitglieder gehören den Segelclubs und Segelvereinen im BSV an (Stand: August 2015), darunter viele aktive Regattasegler. Einige der weltbesten Segler kommen aus Bayern. In den vergangenen Jahren nahmen sie an internationalen Events wie der Opti-WM in Boca Chica, der Kieler Woche und olympischen Regatten in Weymouth/England teil. Der Bayerische Seglerverband ist der drittgrößte Landesverband im Deutschen Segler-Verband (DSV), Hamburg""" ;
+	dcat:keyword "Bayerm, Segelverband" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.bayernsail.de/index.php?id=127" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "RegBaySe" ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.bayernsail.de/index.php?id=127" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "keine Angabe (Urheberrecht, Absprache mit Verband)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "RegBaySe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegVerein> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Vereine auf den sächsischen Segelrevieren" ;
+	dct:description """Der Landesverband gliedert sich in vier Regionen: Westsachsen/ Leipzig, den Revierverbund Ostsachsen, den Revierverbund Vogtland und den Revierausschuss Oberelbe. Starken Zuwachs erwartet der SVS durch die wassersportliche Erschließung der neuen Seen in den Regionen Lausitz und Südraum Leipzig.""" ;
+	dcat:keyword "Sachsen, Segelverband" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://segeln-sachsen.de/vereine/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "RegVerein" ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://segeln-sachsen.de/vereine/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "keine Angabe (Urheberrecht, Absprache mit Verband)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "RegVerein" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegBraSe> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Verband Brandenburgischer Seger e.V." ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Brandenburg, Segelverband" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.segel-vbs.de/83/reviere-vereine/brandenburg" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "RegBraSe" ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.segel-vbs.de/83/reviere-vereine/brandenburg, http://www.segel-vbs.de/84/reviere-vereine/cottbus, http://www.segel-vbs.de/85/reviere-vereine/eberswalde, http://www.segel-vbs.de/86/reviere-vereine/fuerstenwalde, http://www.segel-vbs.de/395/reviere-vereine/zeuthener-see, http://www.segel-vbs.de/87/reviere-vereine/neuruppin, http://www.segel-vbs.de/88/reviere-vereine/potsdam""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "keine Angabe (Urheberrecht, Absprache mit Verband)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "RegBraSe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegRheSe> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Landes-Segelverband Rheinland-Pfalz e.V" ;
+	dct:description """Die Liste der Vereine kann über jede Spalte sortiert und angezeigt werden. Die Vereinsnamen sind mit der Webseite des entsprechenden Vereins hinterlegt.""" ;
+	dcat:keyword "Rheinland-Pfalz, Segelverband" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.lsv-rp.de/verband/vereine/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "RegRheSe" ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.lsv-rp.de/verband/vereine/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "keine Angabe (Urheberrecht, Absprache mit Verband)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "RegRheSe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzRegRaceof> a dcat:Dataset ;
+	dct:title "Regattatätigkeit der deutschen Segelvereine in Abhängigkeit der Gewässergröße" ;
+	dcat:dataset "Raceoffice - Das kostenlose Portal für Regatten" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Portal, Regatten" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.raceoffice.org/index.php?s_von=\\$startDate&s_bis=\\$endDate&s_search=" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "RegRaceof" ;
+	dct:publisher "Anja Rommel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.raceoffice.org/index.php?s_von=\\$startDate&s_bis=\\$endDate&s_search=""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "keine Angabe (Urheberrecht, Absprache mit Verband)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "RegRaceof" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzEinDataP> a dcat:Dataset ;
+	dct:title "Einflüsse auf die Kriminalität in den Counties von England" ;
+	dcat:dataset "Data Police UK" ;
+	dct:description """These CSV files provide street-level crime, outcome, and stop and search information, broken down by police force and 2011 lower layer super output area (LSOA).  See the changelog for known data issues, and the about page for a description of each column in the CSV files.""" ;
+	dcat:keyword "Open Data, UK" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://data.police.uk/data/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "EinDataP" ;
+	dct:publisher "Anne Matthes" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://data.police.uk/data/" ;
+	dct:format """CSV (in komplexer Ordnerstruktur)""" ;
+	dcat:downloadURL "HTTP (früher API)" ;
+	dct:rights "Open Government Licence" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnne+Matthes> a foaf:Agent ;
+	dct:publisher "Anne Matthes" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Anne Matthes" ;
+	dcat:dataset "EinDataP" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzEinOffMa> a dcat:Dataset ;
+	dct:title "Einflüsse auf die Kriminalität in den Counties von England" ;
+	dcat:dataset "official labour market statistics" ;
+	dct:description """Nomis is a service provided by the Office for National Statistics, ONS, to give you free access to the most detailed and up-to-date UK labour market statistics from official sources""" ;
+	dcat:keyword "Market; Statistic" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://www.nomisweb.co.uk/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "EinOffMa" ;
+	dct:publisher "Anne Matthes" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://www.nomisweb.co.uk/" ;
+	dct:format "XLSX, CSV, TSV, HTML" ;
+	dcat:downloadURL "HTTP, API" ;
+	dct:rights "Open Government Licence" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "EinOffMa" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzEinLondon> a dcat:Dataset ;
+	dct:title "Einflüsse auf die Kriminalität in den Counties von England" ;
+	dcat:dataset "London DataStore" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "London, Data Store" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://data.london.gov.uk/dataset/" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "EinLondon" ;
+	dct:publisher "Anne Matthes" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://data.london.gov.uk/dataset/" ;
+	dct:format "XLS" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Open Government Licence" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "EinLondon" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzEinVerwal> a dcat:Dataset ;
+	dct:title "Einflüsse auf die Kriminalität in den Counties von England" ;
+	dcat:dataset "Verwaltungsgliederung Englands" ;
+	dct:description """Die Verwaltungsgliederung Englands ist letztmals 2009 in einigen Landesteilen reformiert worden. England gliedert sich derzeit in neun Regionen, darunter Greater London. Die acht Regionen außerhalb von Greater London sind auf drei verschiedene Arten gegliedert""" ;
+	dcat:keyword """Verwaltungsgliederung EnglandsListe (Verwaltungseinheiten im Vereinigten Königreich)""" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """ttps://de.wikipedia.org/wiki/Verwaltungsgliederung_Englands/""" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "EinVerwal" ;
+	dct:publisher "Anne Matthes" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """ttps://de.wikipedia.org/wiki/Verwaltungsgliederung_Englands/""" ;
+	dct:format "XLS" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "GNU Free Documentation License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "EinVerwal" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzBenKalZu> a dcat:Dataset ;
+	dct:title "Benötigte Sporteinheiten zur Verbrennung von Kalorien aus Backwaren oder Süßspeisen " ;
+	dcat:dataset " Kalorienangaben Zutaten" ;
+	dct:description """Willkommen in der Kalorientabelle und Nährwerttabelle für Lebensmittel von Kalorientabelle.net. Bei uns findest Du zahlreiche Kategorien - von Backzutaten, Brot und Brötchen bis hin zu Suppen, Süßwaren und Wurst. Du kannst einfach jede Kategorie durchstöbern oder die Suche benutzen! Wir wünschen Dir viel Spaß!""" ;
+	dcat:keyword "Kalsorien, Zutaten " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.kalorientabelle.net/" ;
+	dcat:dataQuality "-" ;
+	dcat:distribution "BenKalZu" ;
+	dct:publisher "Anne_Schuessler" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.kalorientabelle.net/" ;
+	dct:format "CSV" ;
+	dcat:downloadURL "https://import.io/" ;
+	dct:rights """keine offene Lizenz (Verwendung der Daten nur in Absprachemit dem Seitenbetreiber gestattet)""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnne_Schuessler> a foaf:Agent ;
+	dct:publisher "Anne_Schuessler" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Anne_Schuessler" ;
+	dcat:dataset "BenKalZu" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzBenKalSp> a dcat:Dataset ;
+	dct:title "Benötigte Sporteinheiten zur Verbrennung von Kalorien aus Backwaren oder Süßspeisen " ;
+	dcat:dataset "Kalorienverbrauch Sportarten" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Kalsorien, Sportarten " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://gesuender-abnehmen.com/abnehmen/kalorienverbrauch-sport.html""" ;
+	dcat:dataQuality "-" ;
+	dcat:distribution "BenKalSp" ;
+	dct:publisher "Anne_Schuessler" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://gesuender-abnehmen.com/abnehmen/kalorienverbrauch-sport.html""" ;
+	dct:format "CSV" ;
+	dcat:downloadURL "https://import.io/" ;
+	dct:rights """keine offene Lizenz (Verwendung der Daten nur in Absprachemit dem Seitenbetreiber gestattet)""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "BenKalSp" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzBenRezept> a dcat:Dataset ;
+	dct:title "Benötigte Sporteinheiten zur Verbrennung von Kalorien aus Backwaren oder Süßspeisen " ;
+	dcat:dataset "Rezepte" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Rezepte " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.chefkoch.de/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "BenRezept" ;
+	dct:publisher "Anne_Schuessler" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.chefkoch.de/" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "Chefkoch API" ;
+	dct:rights """offene Lizenz für die Website (API ist keine offizielle download URL )""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "BenRezept" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohWohnun> a dcat:Dataset ;
+	dct:title "Wohnungssuche in Leipzig" ;
+	dcat:dataset "Wohnungen " ;
+	dct:description "Aktuelle Themen rund um die Immobilie" ;
+	dcat:keyword "Wohnung" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.immobilienscout24.de/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "WohWohnun" ;
+	dct:publisher "Christian_Weckel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.immobilienscout24.de/" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "eingeschrankt, Registration notwendig" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzChristian_Weckel> a foaf:Agent ;
+	dct:publisher "Christian_Weckel" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Christian_Weckel" ;
+	dcat:dataset "WohWohnun" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohÖffent> a dcat:Dataset ;
+	dct:title "Wohnungssuche in Leipzig" ;
+	dcat:dataset "Öffentliche Haltestellen" ;
+	dct:description """OpenStreetMap.org ist ein im Jahre 2004 gegründetes internationales Projekt mit dem Ziel, eine freie Weltkarte zu erschaffen. Dafür sammeln wir weltweit Daten über Straßen, Eisenbahnen, Flüsse, Wälder, Häuser und vieles mehr.""" ;
+	dcat:keyword "Deutschland, StreetMap" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.openstreetmap.de/" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "WohÖffent" ;
+	dct:publisher "Christian_Weckel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.openstreetmap.de/" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Open Database License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WohÖffent" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPopWikipe> a dcat:Dataset ;
+	dct:title "Popularität englischsprachiger Musik in verschiedenen Ländern" ;
+	dcat:dataset "Wikipedia" ;
+	dct:description """Welcome to Wikipedia, the free encyclopedia that anyone can edit.""" ;
+	dcat:keyword "Musik" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://en.wikipedia.org/" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "PopWikipe" ;
+	dct:publisher "Felix_Hain" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://en.wikipedia.org/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "Parsen der Webseite" ;
+	dct:rights "CC BY-SA 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFelix_Hain> a foaf:Agent ;
+	dct:publisher "Felix_Hain" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Felix_Hain" ;
+	dcat:dataset "PopWikipe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPopDbpedi> a dcat:Dataset ;
+	dct:title "Popularität englischsprachiger Musik in verschiedenen Ländern" ;
+	dcat:dataset "Dbpedia" ;
+	dct:description """Towards a Public Data Infrastructure for a Large, Multilingual, Semantic Knowledge Graph""" ;
+	dcat:keyword "Database, Wikipedia" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://wiki.dbpedia.org/" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "PopDbpedi" ;
+	dct:publisher "Felix_Hain" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://dbpedia.org/" ;
+	dct:format """RDF (XML, N3/Turtle, N-Triples), OData (Atom, JSON), Microdata (JSON, HTML), JSON-LD, CSV""" ;
+	dcat:downloadURL "access URLed Data, Dump, Rest-API" ;
+	dct:rights "CC BY-SA 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "PopDbpedi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehDeutsc> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "Deutsche Bevölkerung nach Bundesland nach Mikrozensus 2011" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Statistik, Bundesamt " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://destatis.de/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "LehDeutsc" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://destatis.de/" ;
+	dct:format "XLS, CSV" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC-SA" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFrank+Buechel> a foaf:Agent ;
+	dct:publisher "Frank Buechel" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Frank Buechel" ;
+	dcat:dataset "LehDeutsc" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehAus+> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "Liste aller Ausbildungsberufe" ;
+	dct:description """Die nachfolgend angeführte Liste von Ausbildungsberufen gibt auszugsweise einen Überblick über die in Deutschland zur Verfügung stehenden Ausbildungsberufe.""" ;
+	dcat:keyword "Ausbildung, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "https://de.wikipedia.org/wiki/Liste_von_Ausbildungsberufen" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "LehAus " ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """https://de.wikipedia.org/wiki/Liste_von_Ausbildungsberufen""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC-SA" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "LehAus " .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehLi> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "Liste der Gross- und Mittelstaedte in Deutschland" ;
+	dct:description """Die Liste der Groß- und Mittelstädte in Deutschland bietet einen Überblick über die Entwicklung der Einwohnerzahl der Städte und Gemeinden Deutschlands mit 20.000 und mehr Einwohnern. Es handelt sich somit um alle Groß- und Mittelstädte Deutschlands.""" ;
+	dcat:keyword "Großstadt, Mittelstadt, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "https://de.wikipedia.org/wiki/Liste_der_Gro%C3%9F-_und_Mittelst%C3%A4dte_in_Deutschland" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "LehLi" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """https://de.wikipedia.org/wiki/Liste_der_Gro%C3%9F-_und_Mittelst%C3%A4dte_in_Deutschland """ ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC-SA" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "LehLi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehmeines> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "meinestadt.de" ;
+	dct:description """meinestadt.de bietet dir eine einzigartige Vielfalt an Angeboten für dein tägliches Leben in deiner Stadt und Region – für jede der 11.000 deutschen Städte und Gemeinden. Finde alles, was du brauchst, um dich in deiner Stadt wohlzufühlen: egal was du suchst, du findest es auf meinestadt.de.""" ;
+	dcat:keyword "Stadt, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.meinestadt.de/" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "Lehmeines" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """meinestadt.de, jobbrse.com""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "REST HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "Lehmeines" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehJobboe> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "Jobboerse.arbeitsargentur.de" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Job, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "jobboerse.arbeitsargentur.de " ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "LehJobboe" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "jobboerse.arbeitsargentur.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "REST HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "LehJobboe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehgelbes> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "gelbeseiten.de" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Branchen, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.gelbeseiten.de/" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "Lehgelbes" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "gelbeseiten.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "REST HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "Lehgelbes" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLehbranch> a dcat:Dataset ;
+	dct:title " Lehrberufe im Kinderfreundlichsten Bundesland Deutschlands mit meisten freien Stellenangeboten" ;
+	dcat:dataset "branchenbuch.meinestadt.de" ;
+	dct:description """ Suche im Branchenbuch jetzt auch deutschlandweit nach Firmen einer Branche. Klick dich dazu entweder durch unsere A-Z-Liste oder benutze unsere Branchensuche nach Kategorien. Du kannst auch direkt in deine Stadt wechseln und dort vor Ort weitersuchen.""" ;
+	dcat:keyword "Branchen, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "branchenbuch.meinestadt.de" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "Lehbranch" ;
+	dct:publisher "Frank Buechel" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "branchenbuch.meinestadt.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "REST HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "Lehbranch" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#Projektdatensatz%C3%9CbeListe+> a dcat:Dataset ;
+	dct:title " Übergewicht in Deutschland" ;
+	dcat:dataset "Liste aller deutschen Bundesländer" ;
+	dct:description """Ein Land (in der Gesetzes- bzw. juristischen Fachsprache selten, jedoch in der Standardsprache oft Bundesland genannt) ist nach der föderalen Verfassungsordnung der Bundesrepublik Deutschland einer ihrer teilsouveränen Gliedstaaten. Seit 1990 wird die Bundesrepublik aus 16 Ländern gebildet. """ ;
+	dcat:keyword "Bundesland, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://de.wikipedia.org/wiki/Land_(Deutschland)""" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ÜbeListe " ;
+	dct:publisher "Franz_Anders" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://de.wikipedia.org/wiki/Land_(Deutschland)""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Creative Commons Lizenz" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzFranz_Anders> a foaf:Agent ;
+	dct:publisher "Franz_Anders" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Franz_Anders" ;
+	dcat:dataset "ÜbeListe " .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzÜbeDurchs> a dcat:Dataset ;
+	dct:title " Übergewicht in Deutschland" ;
+	dcat:dataset "Durchschnitts-BMI der Bundesländer" ;
+	dct:description """Stadtmenschen sind im Schnitt schlanker als Bewohner ländlicher Regionen. Zudem fanden die Forscher ein deutliches Ost-West-Gefälle der Pfunde. Das zeigt eine bundesweite Studie.""" ;
+	dcat:keyword "BMI, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://www.focus.de/gesundheit/ernaehrung/news/tid-8485/uebergewicht_aid_232448.html """ ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ÜbeDurchs" ;
+	dct:publisher "Franz_Anders" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.focus.de/gesundheit/ernaehrung/news/tid-8485/uebergewicht_aid_232448.html """ ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "ÜbeDurchs" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzÜbeDurchs> dcat:dataset "Durchschnittseinkommen der Bundesländer" ;
+	dct:description """Die Statistik zeigt das verfügbare Einkommen privater Haushalte je Einwohner in Deutschland nach Bundesländern im Jahr 2014. Im Jahr 2014 betrug das verfügbare Einkommen privater Haushalte je Einwohner in Mecklenburg-Vorpommern 17.486 Euro.""" ;
+	dcat:keyword "Einkommen, Deutschland" ;
+	dcat:landingPage """http://de.statista.com/statistik/daten/studie/255174/umfrage/verfuegbares-einkommen-privater-haushalte-je-einwohner-in-den-bundeslaendern/""" ;
+	dcat:dataQuality "**" ;
+	dcat:accessURL """http://de.statista.com/statistik/daten/studie/255174/umfrage/verfuegbares-einkommen-privater-haushalte-je-einwohner-in-den-bundeslaendern/""" ;
+	dct:format "Microsoft Excel .xls" ;
+	dcat:downloadURL ".xls - Parser" ;
+	dct:rights "Creative Commons Lizenz - BY - NC" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#Projektdatensatz%C3%9CbeListe+> dcat:dataset "Liste aller Deutschen Städte" ;
+	dct:description """Die Liste der Groß- und Mittelstädte in Deutschland bietet einen Überblick über die Entwicklung der Einwohnerzahl der Städte und Gemeinden Deutschlands mit 20.000 und mehr Einwohnern. Es handelt sich somit um alle Groß- und Mittelstädte Deutschlands.""" ;
+	dcat:keyword "Großstadt, Mittelstadt, Deutschland" ;
+	dcat:landingPage """https://de.wikipedia.org/wiki/Liste_der_Gro%C3%9F-_und_Mittelst%C3%A4dte_in_Deutschland""" ;
+	dcat:accessURL """https://de.wikipedia.org/wiki/Liste_der_Gro%C3%9F-_und_Mittelst%C3%A4dte_in_Deutschland""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzÜbeMcDona> a dcat:Dataset ;
+	dct:title " Übergewicht in Deutschland" ;
+	dcat:dataset "McDonald's Restaurants" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Karte, Mc Donald" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "Google Maps Database" ;
+	dcat:distribution "ÜbeMcDona" ;
+	dct:publisher "Franz_Anders" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "Google Maps Database" ;
+	dct:format "Internes Datenformat" ;
+	dcat:downloadURL "Google Places API" ;
+	dct:rights "Google Places API" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "ÜbeMcDona" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPasWikime> a dcat:Dataset ;
+	dct:title "  Passende Weine zu internationalen Gerichten" ;
+	dcat:dataset "Wikimedia Cookbook" ;
+	dct:description """A growing, world-wide, collection of recipes, translated into, or written in, English with links to other languages.""" ;
+	dcat:keyword "Wikipedia, Cookbook" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage """https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents""" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "PasWikime" ;
+	dct:publisher "Georg_Jenschmischek" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """https://en.wikibooks.org/wiki/Cookbook:Table_of_Contents""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC BY-SA 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzGeorg_Jenschmischek> a foaf:Agent ;
+	dct:publisher "Georg_Jenschmischek" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Georg_Jenschmischek" ;
+	dcat:dataset "PasWikime" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPasWine+T> a dcat:Dataset ;
+	dct:title "  Passende Weine zu internationalen Gerichten" ;
+	dcat:dataset "Wine To Match" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Wein" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.winetomatch.com/" ;
+	dcat:distribution "PasWine T" ;
+	dct:publisher "Georg_Jenschmischek" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.winetomatch.com/" ;
+	dct:format "HTML, JSON" ;
+	dcat:downloadURL "HTTP, Rest-API" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "PasWine T" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPasWine> a dcat:Dataset ;
+	dct:title "  Passende Weine zu internationalen Gerichten" ;
+	dcat:dataset "Wine.com" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Wein" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.wine.com/" ;
+	dcat:distribution "PasWine" ;
+	dct:publisher "Georg_Jenschmischek" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.wine.com/" ;
+	dct:format "HTML, JSON" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "PasWine" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPasLänder> a dcat:Dataset ;
+	dct:title "  Passende Weine zu internationalen Gerichten" ;
+	dcat:dataset "Länderinformationen von DBPedia" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Land, DBPedia" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://dbpedia.org/sparql/" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "PasLänder" ;
+	dct:publisher "Georg_Jenschmischek" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://dbpedia.org/sparql/" ;
+	dct:format "RDF" ;
+	dcat:downloadURL "SPARQL" ;
+	dct:rights "CC BY-SA 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "PasLänder" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPasWikipe> a dcat:Dataset ;
+	dct:title "  Passende Weine zu internationalen Gerichten" ;
+	dcat:dataset "Wikipedia-Tabelle der Laeander-Adjektive" ;
+	dct:description "List of adjectival and demonymic forms for countries and nations" ;
+	dcat:keyword "Land" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage """https://en.wikipedia.org/wiki/List_of_adjectival_and_demonymic_forms_for_countries_and_nations/""" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "PasWikipe" ;
+	dct:publisher "Georg_Jenschmischek" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """https://en.wikipedia.org/wiki/List_of_adjectival_and_demonymic_forms_for_countries_and_nations/""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC BY-SA 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "PasWikipe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDerPanGa> a dcat:Dataset ;
+	dct:title "  Der Anstieg von Gewaltdelikten im Umkreis von Londoner Schulen" ;
+	dcat:dataset "Pan European Game Information" ;
+	dct:description """If you want to know what rating a specific game has been given, it can be easily found in the PEGI database. The database shows you the logo as well as the descriptors that apply to the game of your choice. The PEGI database covers all games so far classified under the PEGI system, which has been operating since 03/01/2003.""" ;
+	dcat:keyword "Game, European" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.pegi.info/en/index/id/509" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "DerPanGa" ;
+	dct:publisher "Georges Alkhouri" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.pegi.info/en/index/id/509" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "?" ;
+	dct:rights "Nicht öffentlich" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzGeorges+Alkhouri> a foaf:Agent ;
+	dct:publisher "Georges Alkhouri" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Georges Alkhouri" ;
+	dcat:dataset "DerPanGa" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDerCamden> a dcat:Dataset ;
+	dct:title "  Der Anstieg von Gewaltdelikten im Umkreis von Londoner Schulen" ;
+	dcat:dataset "Camden Data" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Database, UK" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage """http://www.camdendata.info/Lists/AddDocumentaccess URLs/DispForm.aspx?ID=110""" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "DerCamden" ;
+	dct:publisher "Georges Alkhouri" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.camdendata.info/Lists/AddDocumentaccess URLs/DispForm.aspx?ID=110""" ;
+	dct:format "CSV" ;
+	dcat:downloadURL "HTML" ;
+	dct:rights "Open Government Licence" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "DerCamden" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDerGoogle> a dcat:Dataset ;
+	dct:title "  Der Anstieg von Gewaltdelikten im Umkreis von Londoner Schulen" ;
+	dcat:dataset "Google Geocoding" ;
+	dct:description """The Google Maps Geocoding API is a service that provides geocoding and reverse geocoding of addresses.""" ;
+	dcat:keyword "Database, Google, Geocoding" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage """https://developers.google.com/maps/documentation/geocoding/""" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "DerGoogle" ;
+	dct:publisher "Georges Alkhouri" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """https://developers.google.com/maps/documentation/geocoding/""" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Google Maps/Google Earth APIs Terms of Service" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "DerGoogle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDerDataPo> a dcat:Dataset ;
+	dct:title "  Der Anstieg von Gewaltdelikten im Umkreis von Londoner Schulen" ;
+	dcat:dataset "Data Police UK" ;
+	dct:description "This is the site for open data about crime and policing in England, Wales and Northern Ireland." ;
+	dcat:keyword "Database, Police, UK" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://data.police.uk" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "DerDataPo" ;
+	dct:publisher "Georges Alkhouri" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://data.police.uk" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Open Government Licence" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "DerDataPo" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelOscars> a dcat:Dataset ;
+	dct:title "  Welche Schauspieler hätte es am meisten verdient einen Oscar zu erhalten " ;
+	dcat:dataset "Oscars Awards Database" ;
+	dct:description """The Academy Awards Database contains the record of past Academy Award winners and nominees. The data is complete through the 2015 (88th) Academy Awards, presented on February 28, 2016.""" ;
+	dcat:keyword "Database, Oscars" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://awardsdatabase.oscars.org" ;
+	dcat:dataQuality "(**)" ;
+	dcat:distribution "WelOscars" ;
+	dct:publisher "Gero Kraus" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://awardsdatabase.oscars.org" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzGero+Kraus> a foaf:Agent ;
+	dct:publisher "Gero Kraus" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Gero Kraus" ;
+	dcat:dataset "WelOscars" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelTheMov> a dcat:Dataset ;
+	dct:title "  Welche Schauspieler hätte es am meisten verdient einen Oscar zu erhalten " ;
+	dcat:dataset "TheMovieDB" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Database, Movie" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "https://www.themoviedb.org/" ;
+	dcat:dataQuality "(****)" ;
+	dcat:distribution "WelTheMov" ;
+	dct:publisher "Gero Kraus" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://www.themoviedb.org/" ;
+	dct:format "JSON/XML" ;
+	dcat:downloadURL """REST, Wrapper für unterschiedlichste Sprachen""" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WelTheMov" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelOMDb> a dcat:Dataset ;
+	dct:title "  Welche Schauspieler hätte es am meisten verdient einen Oscar zu erhalten " ;
+	dcat:dataset "OMDb" ;
+	dct:description """The OMDb API is a free web service to obtain movie information, all content and images on the site are contributed and maintained by our users.""" ;
+	dcat:keyword "Database, Movie" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.omdbapi.com/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "WelOMDb" ;
+	dct:publisher "Gero Kraus" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.omdbapi.com/" ;
+	dct:format "JSON/XML" ;
+	dcat:downloadURL "REST" ;
+	dct:rights "CC-BY 4.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WelOMDb" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohSchwim> a dcat:Dataset ;
+	dct:title "  Wohnungen in Leipzig, mit kurzer Entfernung zu einem Fitnessstudio und einem Schwimmbad" ;
+	dcat:dataset "Schwimmbadcheck" ;
+	dct:description """Die nachfolgende Liste zeigt Hallenbäder, Freibäder und Freizeitbäder in Leipzig. Schwimmbäder in der Nähe von Leipzig und Schwimmvereine in Leipzig finden Sie rechts.""" ;
+	dcat:keyword "Schwimmbad, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://www.schwimmbadcheck.de/schwimmbad/leipzig.html""" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "WohSchwim" ;
+	dct:publisher "Jonny Rillich" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.schwimmbadcheck.de/schwimmbad/leipzig.html""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzJonny+Rillich> a foaf:Agent ;
+	dct:publisher "Jonny Rillich" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Jonny Rillich" ;
+	dcat:dataset "WohSchwim" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohImmo> a dcat:Dataset ;
+	dct:title """Jonny_Rillich
+  Wohnungen in Leipzig, mit kurzer Entfernung zu einem Fitnessstudio und einem Schwimmbad """ ;
+	dcat:dataset "Immobilienscout" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Wohnung, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.immobilienscout24.de/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "WohImmo" ;
+	dct:publisher "Jonny Rillich" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.immobilienscout24.de/" ;
+	dct:format "XML, JSON" ;
+	dcat:downloadURL "REST" ;
+	dct:rights "eingeschrankt, Registrierung notwendig" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WohImmo" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohJon> a dcat:Dataset ;
+	dct:title """Jonny_Rillich
+  Wohnungen in Leipzig, mit kurzer Entfernung zu einem Fitnessstudio und einem Schwimmbad """ ;
+	dcat:dataset "Fitnessstudiofinder" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Fitnessstudio, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.fitnessstudiofinder.de" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "WohJon" ;
+	dct:publisher "Jonny Rillich" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.fitnessstudiofinder.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WohJon" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWohBing> a dcat:Dataset ;
+	dct:title """Jonny_Rillich
+  Wohnungen in Leipzig, mit kurzer Entfernung zu einem Fitnessstudio und einem Schwimmbad """ ;
+	dcat:dataset "Bing Geo Api" ;
+	dct:description """The Bing Maps Dev Center provides the tools and resources you need to develop with Bing Maps. You can store, access, and keep track of your store locations or other spatial data through our online data source management system. """ ;
+	dcat:keyword "Bing, Geocoding" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://www.bingmapsportal.com/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "WohBing" ;
+	dct:publisher "Jonny Rillich" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://www.bingmapsportal.com/" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "REST" ;
+	dct:rights "eingeschrankt, Registrierung notwendig" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WohBing" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDeuBadese> a dcat:Dataset ;
+	dct:title "  Deutsche Badeseen mit Anbindung an öffentliche Verkehrsmitte und nahelegener Essensmöglichkeiten " ;
+	dcat:dataset "Badeseen von Seen.de" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Seen, Deutschland " ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.seen.de/" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "DeuBadese" ;
+	dct:publisher "Lisa Leuschner" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.seen.de/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Keine Angabe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLisa+Leuschner> a foaf:Agent ;
+	dct:publisher "Lisa Leuschner" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Lisa Leuschner" ;
+	dcat:dataset "DeuBadese" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDeuHaltes> a dcat:Dataset ;
+	dct:title "  Deutsche Badeseen mit Anbindung an öffentliche Verkehrsmitte und nahelegener Essensmöglichkeiten  " ;
+	dcat:dataset "Haltestellen und Restaurants ueber OpenStreetMap" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Streetmap" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.overpass-api.de/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "DeuHaltes" ;
+	dct:publisher "Lisa Leuschner" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.overpass-api.de/" ;
+	dct:format "XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Open Database License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "DeuHaltes" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzDeuGeoKo> a dcat:Dataset ;
+	dct:title "  Deutsche Badeseen mit Anbindung an öffentliche Verkehrsmitte und nahelegener Essensmöglichkeiten " ;
+	dcat:dataset "Geo-Koordinaten fuer Seen ueber Google-Geocoding-Api" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Streetmap" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "Geo-Koordinaten fur Seen uber Google-Geocoding-Api" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "DeuGeoKo" ;
+	dct:publisher "Lisa Leuschner" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "Geo-Koordinaten fur Seen uber Google-Geocoding-Api" ;
+	dct:format "XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights """Lizenz-Key (nach Registrierung, Beschrankung furFree User)""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "DeuGeoKo" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucImmobi> a dcat:Dataset ;
+	dct:title "  Suche nach studentenfreundlichen Mietwohnungen mit geringer Fahrtzeit zur Htwk" ;
+	dcat:dataset "ImmobilienScout24" ;
+	dct:description """We offer more than 20 public REST APIs around real estates, real estate market data, geo services, realtor data and much more. Check \"Our APIs\" for getting an overview on the APIs. \"Getting Started\" not only leads you to the registration, but also contains faq, basic principles, playground, sandbox and much more.""" ;
+	dcat:keyword "Immobilien" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "api.immobilienscout24.de" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "SucImmobi" ;
+	dct:publisher "Marcel Mielke" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "api.immobilienscout24.de" ;
+	dct:format "XML / JSON" ;
+	dcat:downloadURL "REST-API" ;
+	dct:rights "Keine Angabe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzMarcel+Mielke> a foaf:Agent ;
+	dct:publisher "Marcel Mielke" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Marcel Mielke" ;
+	dcat:dataset "SucImmobi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucImmone> a dcat:Dataset ;
+	dct:title "  Suche nach studentenfreundlichen Mietwohnungen mit geringer Fahrtzeit zur Htwk" ;
+	dcat:dataset "Immonet" ;
+	dct:description """Die Immonet-API – eine standardisierte Schnittstelle zur Immobiliendatenbank von Immonet – ermöglicht die professionelle Integration unserer Immoblienangebote auf Ihrer eigenen Website oder in Ihrer eigenen App.""" ;
+	dcat:keyword "Immobilien" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "api.immonet.de" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "SucImmone" ;
+	dct:publisher "Marcel Mielke" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "api.immonet.de" ;
+	dct:format "XML / JSON" ;
+	dcat:downloadURL "XML-RPC / JSON-RPC" ;
+	dct:rights "Keine Angabe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "SucImmone" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucFahrpl> a dcat:Dataset ;
+	dct:title "  Suche nach studentenfreundlichen Mietwohnungen mit geringer Fahrtzeit zur Htwk" ;
+	dcat:dataset "Fahrplan" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Fahrplan, Deutsche Bahn" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """reiseauskunft.bahn.de/bin/query.exe/dn?/""" ;
+	dcat:dataQuality "Kein Stern" ;
+	dcat:distribution "SucFahrpl" ;
+	dct:publisher "Marcel Mielke" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """reiseauskunft.bahn.de/bin/query.exe/dn?/""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP (HAFAS)" ;
+	dct:rights "Nicht öffentlich" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "SucFahrpl" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucKabela> a dcat:Dataset ;
+	dct:title "  Suche nach studentenfreundlichen Mietwohnungen mit geringer Fahrtzeit zur Htwk" ;
+	dcat:dataset "Kabelanbieter" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Vodafone" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """www.kabeldeutschland.de/shop/verfuegbarkeit/adresse/, www.telecolumbus.de/home/""" ;
+	dcat:dataQuality "Kein Stern" ;
+	dcat:distribution "SucKabela" ;
+	dct:publisher "Marcel Mielke" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """www.kabeldeutschland.de/shop/verfuegbarkeit/adresse/, www.telecolumbus.de/home/""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Nicht öffentlich" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "SucKabela" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnsImmobi> a dcat:Dataset ;
+	dct:title " Ansässige Handelsketten nach Mietpreisen" ;
+	dcat:dataset "ImmobilienScout24" ;
+	dct:description """We offer more than 20 public REST APIs around real estates, real estate market data, geo services, realtor data and much more. Check \"Our APIs\" for getting an overview on the APIs. \"Getting Started\" not only leads you to the registration, but also contains faq, basic principles, playground, sandbox and much more.""" ;
+	dcat:keyword "Immobilien" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "api.immobilienscout24.de" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "AnsImmobi" ;
+	dct:publisher "Max Taube" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "api.immobilienscout24.de" ;
+	dct:format "JSON / XML, HTML" ;
+	dcat:downloadURL "Rest-API, HTTP" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzMax+Taube> a foaf:Agent ;
+	dct:publisher "Max Taube" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Max Taube" ;
+	dcat:dataset "AnsImmobi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnsGoogle> a dcat:Dataset ;
+	dct:title " Ansässige Handelsketten nach Mietpreise" ;
+	dcat:dataset "Google Places" ;
+	dct:description "Google Maps für jede Plattform" ;
+	dcat:keyword "Google, Map" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "maps.googleapis.com/maps/api/place/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "AnsGoogle" ;
+	dct:publisher "Max Taube" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "maps.googleapis.com/maps/api/place/" ;
+	dct:format "JSON / XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "AnsGoogle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzAnsWohnge> a dcat:Dataset ;
+	dct:title " Ansässige Handelsketten nach Mietpreise" ;
+	dcat:dataset "Wohngeld.org" ;
+	dct:description """Die Mietstufen dienen zur Orientierung der Miethöhe und sind untergliedert in die Mietstufen von I (günstigste Mietstufe) bis Mietstufe VI (teuerste Mietstufe). Zwar hängen diese nicht von den Bundesländern ab, sind hier aber zur besseren Übersicht danach sortiert. Die Listen der Städte und Gemeinden befinden sich auf dem aktuellen Stand 2016, da es zum 01.01.2016 Änderungen in den Mietstufen und beim Wohngeld gegeben hat. Beim Wohngeld spielen die Mietstufen insofern eine Rolle, als dass sie Auswirkungen auf die Bemessung der maximal zu bezuschussenden Miete oder Belastung (bei Wohneigentum) sowie zur Ermittlung des Höchsteinkommens des Wohngeldhaushalts haben. """ ;
+	dcat:keyword "Wohngeld, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "wohngeld.org/mietstufe.html" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "AnsWohnge" ;
+	dct:publisher "Max Taube" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "wohngeld.org/mietstufe.html" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Keine Angabe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "AnsWohnge" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzStaPostle> a dcat:Dataset ;
+	dct:title " Stadtteilsuche in Leipzig" ;
+	dcat:dataset "Postleitzahlen" ;
+	dct:description """Die Postleitzahl einer deutschen Stadt gesucht? Dann sind Sie bei der Postleitzahlensuche von Das Örtliche genau richtig. Sie geben einfach die Stadt oder die Gemeinde ein, für die Sie die Postleitzahl finden wollen, und Sie erhalten sofort Ihr Ergebnis. Doch die Postleitzahlensuche findet nicht nur Städte, sondern auch Ortsteile einer Stadt sowie Dörfer einer Gemeinde. Das hilft Ihnen, die Postleitzahl eines PLZ-Gebiets exakt zuzuordnen.""" ;
+	dcat:keyword "Postleitzahlen, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.dasoertliche.de/postleitzahlen/" ;
+	dcat:dataQuality "keine Angabe" ;
+	dcat:distribution "StaPostle" ;
+	dct:publisher "Natascha Fadeeva" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.dasoertliche.de/postleitzahlen/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Keine Angabe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzNatascha+Fadeeva> a foaf:Agent ;
+	dct:publisher "Natascha Fadeeva" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Natascha Fadeeva" ;
+	dcat:dataset "StaPostle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzStaRestau> a dcat:Dataset ;
+	dct:title " Stadtteilsuche in Leipzig" ;
+	dcat:dataset "Restaurants mit veganem Speiseangebot" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Restaurant, Vegan" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://de.veganguide.org, API-access URL:http://de.veganguide.org/api""" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "StaRestau" ;
+	dct:publisher "Natascha Fadeeva" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://de.veganguide.org, API-access URL:http://de.veganguide.org/api""" ;
+	dct:format "HTML, XML" ;
+	dcat:downloadURL "HTTP, XML-RPC-API" ;
+	dct:rights "CCPL" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "StaRestau" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzStaOffen> a dcat:Dataset ;
+	dct:title " Stadtteilsuche in Leipzig" ;
+	dcat:dataset "Offene IT-Stellen" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Job, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://de.indeed.com, API-access URL:https://ads.indeed.com/jobroll/xmlfeed""" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "StaOffen" ;
+	dct:publisher "Natascha Fadeeva" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://de.indeed.com, API-access URL:https://ads.indeed.com/jobroll/xmlfeed""" ;
+	dct:format "HTML, JSON, XML" ;
+	dcat:downloadURL "HTTP, API" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "StaOffen" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzStaFitnes> a dcat:Dataset ;
+	dct:title " Stadtteilsuche in Leipzig" ;
+	dcat:dataset "Fitnessstudios" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Fitnessstudio, Deutschland" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.fitnessstudiofinder.de" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "StaFitnes" ;
+	dct:publisher "Natascha Fadeeva" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.fitnessstudiofinder.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "StaFitnes" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzMedMedail> a dcat:Dataset ;
+	dct:title "Medalliengewinne bei Olympischen Spielen" ;
+	dcat:dataset "Medaillenspiegel" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Medaille, Olympia" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.databaseolympics.com/" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "MedMedail" ;
+	dct:publisher "Nico Wohlfarth" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.databaseolympics.com/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzNico+Wohlfarth> a foaf:Agent ;
+	dct:publisher "Nico Wohlfarth" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Nico Wohlfarth" ;
+	dcat:dataset "MedMedail" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzMedWetter> a dcat:Dataset ;
+	dct:title "Medalliengewinne bei Olympischen Spielen" ;
+	dcat:dataset "Wetterdaten" ;
+	dct:description "A WEATHER API DESIGNED FOR DEVELOPERS" ;
+	dcat:keyword "Wetter" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.wunderground.com/api" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "MedWetter" ;
+	dct:publisher "Nico Wohlfarth" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.wunderground.com/api" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Registrierung notwendig" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "MedWetter" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzMedEinwoh> a dcat:Dataset ;
+	dct:title "Medalliengewinne bei Olympischen Spielen" ;
+	dcat:dataset "Einwohnerzahlen" ;
+	dct:description "World Population API" ;
+	dcat:keyword "Einwohnerzahl, Welt" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://api.population.io/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "MedEinwoh" ;
+	dct:publisher "Nico Wohlfarth" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://api.population.io/" ;
+	dct:format "JSON, JSONP, HTML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "MedEinwoh" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzVerTunefi> a dcat:Dataset ;
+	dct:title "Verbreitung von Musiktiteln nach deren Verwendung in einem Kinofilm" ;
+	dcat:dataset "Tunefind" ;
+	dct:description "Find Music From TV and Movies" ;
+	dcat:keyword "Musik, Movies" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.tunefind.com/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "VerTunefi" ;
+	dct:publisher "Patrick Bachmann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.tunefind.com/" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "siehe http://www.tunefind.com/api" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPatrick+Bachmann> a foaf:Agent ;
+	dct:publisher "Patrick Bachmann" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Patrick Bachmann" ;
+	dcat:dataset "VerTunefi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzVerOMDb+-> a dcat:Dataset ;
+	dct:title "Verbreitung von Musiktiteln nach deren Verwendung in einem Kinofilm" ;
+	dcat:dataset "OMDb - The Open Movie Database" ;
+	dct:description """The OMDb API is a free web service to obtain movie information, all content and images on the site are contributed and maintained by our users.""" ;
+	dcat:keyword "Movies" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.omdbapi.com/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "VerOMDb -" ;
+	dct:publisher "Patrick Bachmann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.omdbapi.com/" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "VerOMDb -" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzVerIMDb> a dcat:Dataset ;
+	dct:title "Verbreitung von Musiktiteln nach deren Verwendung in einem Kinofilm" ;
+	dcat:dataset "IMDb" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Movies, Celebretys" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.imdb.com/" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "VerIMDb" ;
+	dct:publisher "Patrick Bachmann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.imdb.com/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "VerIMDb" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzVerChar> a dcat:Dataset ;
+	dct:title "Verbreitung von Musiktiteln nach deren Verwendung in einem Kinofilm" ;
+	dcat:dataset "Offizielle Charts" ;
+	dct:description "Offizielle deutsche Charts" ;
+	dcat:keyword "Musik" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "https://www.offiziellecharts.de/" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "VerChar" ;
+	dct:publisher "Patrick Bachmann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://www.offiziellecharts.de" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "VerChar" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzKriGiantb> a dcat:Dataset ;
+	dct:title "Kriterien für erfolgreiche Spiele im Vergleich " ;
+	dcat:dataset "Giantbomb" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Spiele" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.giantbomb.com/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "KriGiantb" ;
+	dct:publisher "Patrick Naumann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.giantbomb.com/" ;
+	dct:format "JSON, JSONP, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Eigene (vgl. CC BY-NC-ND)" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPatrick+Naumann> a foaf:Agent ;
+	dct:publisher "Patrick Naumann" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Patrick Naumann" ;
+	dcat:dataset "KriGiantb" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzKriWikipe> a dcat:Dataset ;
+	dct:title "Kriterien für erfolgreiche Spiele im Vergleich " ;
+	dcat:dataset "Wikipedia" ;
+	dct:description """Pedro Afonso (1848–1850) was the Prince Imperial and heir apparent to the throne of the Empire of Brazil.""" ;
+	dcat:keyword "Article" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "https://en.wikipedia.org/wiki/Main_Page" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "KriWikipe" ;
+	dct:publisher "Patrick Naumann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://en.wikipedia.org/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "CC BY-SA + GFDL" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "KriWikipe" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzKriVideo+> a dcat:Dataset ;
+	dct:title "Kriterien für erfolgreiche Spiele im Vergleich " ;
+	dcat:dataset "Video Game Music and Anime Soundtrack Database" ;
+	dct:description """VGMdb.net is an excellent resource, containing gigabytes of information about video game music. It documents the relationships between games, albums that represent games, and all the people that contributed to an album.""" ;
+	dcat:keyword "Game, Musik" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://vgmdb.info/" ;
+	dcat:dataQuality """*****""" ;
+	dcat:distribution "KriVideo " ;
+	dct:publisher "Patrick Naumann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://vgmdb.net/, http://vgmdb.info/""" ;
+	dct:format """HTMLRDF, JSON, TURTLE, YAML""" ;
+	dcat:downloadURL """HTTP Rest-API""" ;
+	dct:rights """keine Open-Source""" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "KriVideo " .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzKriVGChar> a dcat:Dataset ;
+	dct:title "Kriterien für erfolgreiche Spiele im Vergleich " ;
+	dcat:dataset "VGChartz" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Games" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.vgchartz.com/" ;
+	dcat:dataQuality """**""" ;
+	dcat:distribution "KriVGChar" ;
+	dct:publisher "Patrick Naumann" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.vgchartz.com/" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Eigene vgl. CC BY-NC-ND" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "KriVGChar" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucOnline> a dcat:Dataset ;
+	dct:title "Suche nach der Anzahl freier und seniorengerechter Wohnungen in Leipzig" ;
+	dcat:dataset "Onlineportal ImmobilienScout24" ;
+	dct:description """We offer more than 20 public REST APIs around real estates, real estate market data, geo services, realtor data and much more. Check \"Our APIs\" for getting an overview on the APIs.""" ;
+	dcat:keyword "Immobilien" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://api.immobilienscout24.de/" ;
+	dcat:dataQuality "***" ;
+	dcat:distribution "SucOnline" ;
+	dct:publisher "Philipp Sieder" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "api.immobilienscout24.de" ;
+	dct:format "XML, JSON" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzPhilipp+Sieder> a foaf:Agent ;
+	dct:publisher "Philipp Sieder" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Philipp Sieder" ;
+	dcat:dataset "SucOnline" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucSane> a dcat:Dataset ;
+	dct:title "Suche nach der Anzahl freier und seniorengerechter Wohnungen in Leipzig" ;
+	dcat:dataset "Onlineportal Sanego" ;
+	dct:description "Arztbewertung, Medikamente bewerten, Nebenwirkungen, Krankheiten und Gesundheitsfragen" ;
+	dcat:keyword """Arztbewertung, Medikamente, Nebenwirkungen, Krankheiten und Gesundheitsfragen""" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.sanego.de/" ;
+	dcat:dataQuality "*" ;
+	dcat:distribution "SucSane" ;
+	dct:publisher "Philipp Sieder" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.sanego.de/arzt" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "Eigene" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "SucSane" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSucLinked> a dcat:Dataset ;
+	dct:title "Suche nach der Anzahl freier und seniorengerechter Wohnungen in Leipzig" ;
+	dcat:dataset "Linked Geo Data" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Sparql" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://linkedgeodata.org/sparql" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "SucLinked" ;
+	dct:publisher "Philipp Sieder" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://access URLedgeodata.org/sparql" ;
+	dct:format "RDF/XML, Turtle, HTML, XML, N-Triples" ;
+	dcat:downloadURL "SPARQL uber HTTP" ;
+	dct:rights "Open Database License, Database Contents License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "SucLinked" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzZusPartne> a dcat:Dataset ;
+	dct:title " Zusammenhang zwischen Wahlbeteiligung und Arbeitslosigkeit bei Landtagswahlen" ;
+	dcat:dataset "Partnerstaedte der Stadt Leipzig" ;
+	dct:description """Leipzig hat 14 Partnerstädte und zwei Stadtteilpartnerschaften. Interessierte Leipzigerinnen und Leipziger haben die Möglichkeit, die Partnerstädte z. B. im Rahmen von Bürgerreisenkennenzulernen.""" ;
+	dcat:keyword "Leipzig, Partnerstädte" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.leipzig.de/buergerservice-und-verwaltung/partnerstaedte/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ZusPartne" ;
+	dct:publisher "Steffen Leps" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.leipzig.de/buergerservice-und-verwaltung/partnerstaedte/""" ;
+	dct:format "plain" ;
+	dcat:downloadURL "http" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSteffen+Leps> a foaf:Agent ;
+	dct:publisher "Steffen Leps" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Steffen Leps" ;
+	dcat:dataset "ZusPartne" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzZusGeodat> a dcat:Dataset ;
+	dct:title " Zusammenhang zwischen Wahlbeteiligung und Arbeitslosigkeit bei Landtagswahlen" ;
+	dcat:dataset "Geodaten" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Geodaten" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://www.geonames.org/search.html?q=&country=DE" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ZusGeodat" ;
+	dct:publisher "Steffen Leps" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.geonames.org/search.html?q=&country=DE""" ;
+	dct:format "RDF/XML" ;
+	dcat:downloadURL "RDF/XML" ;
+	dct:rights "CC BY 3.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "ZusGeodat" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzZusWahler> a dcat:Dataset ;
+	dct:title " Zusammenhang zwischen Wahlbeteiligung und Arbeitslosigkeit bei Landtagswahlen" ;
+	dcat:dataset "Wahlergebnisse" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Wahl, Ergebnisse" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.wahlrecht.de/ergebnisse/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ZusWahler" ;
+	dct:publisher "Steffen Leps" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://www.wahlrecht.de/ergebnisse/" ;
+	dct:format "plain" ;
+	dcat:downloadURL "http" ;
+	dct:rights "unbekannt" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "ZusWahler" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzZusArbeit> a dcat:Dataset ;
+	dct:title " Zusammenhang zwischen Wahlbeteiligung und Arbeitslosigkeit bei Landtagswahlen" ;
+	dcat:dataset "Arbeitslosenstatistik" ;
+	dct:description """Arbeitslose und ArbeitslosenquoteIn absoluten Zahlen und in Prozent aller zivilen Erwerbspersonen, 1980 bis 2015""" ;
+	dcat:keyword "Arbeitslose, Statistik" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage """http://www.bpb.de/nachschlagen/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote""" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "ZusArbeit" ;
+	dct:publisher "Steffen Leps" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.bpb.de/nachschlagen/zahlen-und-fakten/soziale-situation-in-deutschland/61718/arbeitslose-und-arbeitslosenquote""" ;
+	dct:format "plain" ;
+	dcat:downloadURL "http" ;
+	dct:rights "CC BY-NC-ND 3.0 DE" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "ZusArbeit" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelSchule> a dcat:Dataset ;
+	dct:title "Welche Leipziger Spielplätze eignen sich für die Durchführung eines Bootcamps" ;
+	dcat:dataset "Schulen in Leipzig - Leipzig-Data" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Sparql" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://linkedgeodata.org/sparql" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "WelSchule" ;
+	dct:publisher "Tim Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://leipzig-data.de:8890/sparql" ;
+	dct:format "JSON, XML, HTML, Javascript" ;
+	dcat:downloadURL "?" ;
+	dct:rights "Creative Commons Zero 1.0" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzTim+Delle> a foaf:Agent ;
+	dct:publisher "Tim Delle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Tim Delle" ;
+	dcat:dataset "WelSchule" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelHotels> a dcat:Dataset ;
+	dct:title "Welche Leipziger Spielplätze eignen sich für die Durchführung eines Bootcamps" ;
+	dcat:dataset "Hotels in Leipzig - Overpass Turbo" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Hotels, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://overpass-turbo.eu/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "WelHotels" ;
+	dct:publisher "Tim Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://overpass-turbo.eu" ;
+	dct:format "JSON, XML, HTML, Javascript" ;
+	dcat:downloadURL "?" ;
+	dct:rights "Open Data Commons Open Database License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WelHotels" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzWelDistan> a dcat:Dataset ;
+	dct:title "Welche Leipziger Spielplätze eignen sich für die Durchführung eines Bootcamps" ;
+	dcat:dataset "Distanzberechnung - OSM Route API" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Distanz, Berechnung" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "http://router.project-osrm.org/" ;
+	dcat:dataQuality "****" ;
+	dcat:distribution "WelDistan" ;
+	dct:publisher "Tim Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://router.project-osrm.org/" ;
+	dct:format "JSON" ;
+	dcat:downloadURL "?" ;
+	dct:rights " Open Data Commons Open Database License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "WelDistan" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLukImmobi> a dcat:Dataset ;
+	dct:title "Lukrative Eigentumswohnungen in Leipzig" ;
+	dcat:dataset "Immobilienscout24" ;
+	dct:description """We offer more than 20 public REST APIs around real estates, real estate market data, geo services, realtor data and much more. Check \"Our APIs\" for getting an overview on the APIs. \"Getting Started\" not only leads you to the registration, but also contains faq, basic principles, playground, sandbox and much more.""" ;
+	dcat:keyword "Immobilien" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/en.html" ;
+	dcat:landingPage "api.immobilienscout24.de" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "LukImmobi" ;
+	dct:publisher "Tom Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://rest.immobilienscout24.de/restapi/" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "Rest-API" ;
+	dct:rights "Registrierung und Freischaltung nötig" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzTom+Delle> a foaf:Agent ;
+	dct:publisher "Tom Delle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dct:publisher "Tom Delle" ;
+	dcat:dataset "LukImmobi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLukleipzi> a dcat:Dataset ;
+	dct:title "Lukrative Eigentumswohnungen in Leipzig" ;
+	dcat:dataset "leipzig-data.de" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Sparql" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://leipzig-data.de:8890/sparql" ;
+	dcat:dataQuality "*****" ;
+	dcat:distribution "Lukleipzi" ;
+	dct:publisher "Tom Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "http://leipzig-data.de:8890/sparql" ;
+	dct:format "RDF, HTML, JSON, XML, CSV …" ;
+	dcat:downloadURL "SPARQL-Endpoint" ;
+	dct:rights "CC-SA" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "Lukleipzi" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLukGoogle> a dcat:Dataset ;
+	dct:title "Lukrative Eigentumswohnungen in Leipzig" ;
+	dcat:dataset "Google Places API" ;
+	dct:description """Es sind keine Kommentare, Beschreibungen oder Anmerkungen in der Wissensbasis enthalten.""" ;
+	dcat:keyword "Google, Maps" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "https://developers.google.com/maps/?hl=de" ;
+	dcat:dataQuality "**" ;
+	dcat:distribution "LukGoogle" ;
+	dct:publisher "Tom Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL "https://maps.googleapis.com/maps/api/place/" ;
+	dct:format "JSON, XML" ;
+	dcat:downloadURL "REST-API" ;
+	dct:rights "Creative Commons Attribution 3.0 License" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "LukGoogle" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzLukKauIm> a dcat:Dataset ;
+	dct:title "Lukrative Eigentumswohnungen in Leipzig" ;
+	dcat:dataset "Der durchschnittliche Kaufpreis fuer Immobilien in Leipzig" ;
+	dct:description """Hier finden Sie unseren Immobilienpreisspiegel von Leipzig – 7/2016. Diese Immobilienpreise dienen zur Bestimmung der ortsüblichen Kaufpreise. Der Immobilienpreisspiegel wird fortlaufend aktualisiert. """ ;
+	dcat:keyword "Immobilien, Leipzig" ;
+	dct:language "http://id.loc.gov/vocabulary/iso639-1/de.html" ;
+	dcat:landingPage "http://www.wohnungsboerse.net/immobilienpreise-Leipzig/7390" ;
+	dcat:dataQuality "?" ;
+	dcat:distribution "LukKauIm" ;
+	dct:publisher "Tom Delle" ;
+	dcat:theme "skos:Concept" ;
+	a dcat:Distribution ;
+	dcat:accessURL """http://www.wohnungsboerse.net/immobilienpreise-Leipzig/7390""" ;
+	dct:format "HTML" ;
+	dcat:downloadURL "HTTP" ;
+	dct:rights "?" .
+
+<http://www.imn.htwk-leipzig.de/~mreyna/semanticweb/ontologie#ProjektdatensatzSemanticWeb_SS15> dcat:dataset "LukKauIm" .
